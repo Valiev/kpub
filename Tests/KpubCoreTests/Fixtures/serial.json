@@ -1,0 +1,13 @@
+{"status":200,"item":{"id":12345,"type":"serial","title":"Тестовый сериал / Test Show","year":2021,
+"posters":{"small":"https://example.com/s.jpg","medium":"https://example.com/m.jpg","big":"https://example.com/b.jpg"},
+"genres":[{"id":1,"title":"Драма"}],"countries":[{"id":2,"title":"США"}],"imdb_rating":7.9,"kinopoisk_rating":"7.5",
+"seasons":[{"id":10,"number":1,"title":"","episodes":[
+ {"id":101,"number":1,"title":"Pilot","duration":2700,"watched":1,
+  "files":[{"codec":"h264","w":1920,"h":1080,"quality":"1080p","quality_id":3,"url":{"http":"https://cdn.example/1080.mp4","hls4":"https://cdn.example/1080.m3u8"}},
+           {"codec":"h264","w":1280,"h":720,"quality":"720p","quality_id":2,"url":{"http":"https://cdn.example/720.mp4"}},
+           {"codec":"h264","w":720,"h":400,"quality":"480p","quality_id":1,"url":{"http":"https://cdn.example/480.mp4"}}],
+  "audios":[{"id":2,"index":2,"codec":"aac","channels":2,"lang":"eng","type":null,"author":null},
+            {"id":1,"index":1,"codec":"ac3","channels":6,"lang":"rus","type":{"id":1,"title":"Многоголосый"},"author":{"id":5,"title":"LostFilm"}}],
+  "subtitles":[{"lang":"rus","shift":0,"embed":false,"forced":false,"file":"a.srt","url":"https://cdn.example/rus.srt"},
+               {"lang":"eng","shift":"1.5","embed":0,"forced":1,"url":"https://cdn.example/eng.srt"}]},
+ {"id":102,"number":2,"title":"","duration":"2650","files":[],"audios":[],"subtitles":[]}]}]}}
